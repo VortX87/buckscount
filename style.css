@@ -7,4 +7,52 @@
     darkgreen #1e3932
 */
 
-/* your code */
+body {
+  background-color: #1e3932;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: gray;
+  padding: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 25px;
+  font-family: Tahoma, sans-serif;
+  border-radius: 5px;
+}
+
+.city-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.city-item {
+  display: flex;
+  background-color: #00754a;
+  justify-content: flex-end;
+  font-family: Tahoma, sans-serif;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 30px;
+}
